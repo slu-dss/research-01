@@ -28,6 +28,8 @@ rm(list = ls()) # clear workspace
 
 # updates - 
 # 19 Jan 2016 - added additional comments (CHRIS)
+# 19 Jan 2016 - removed code that was not covered (CHRIS)
+# 19 Jan 2016 - changed object names for parity with seminar examples (CHRIS)
 
 # ==========================================================================
 
@@ -47,7 +49,7 @@ rm(list = ls()) # clear workspace
 # Values are assigned to an object using a standard format:
 # objectName <- value
 
-numVar <- c(1,2,4) # assign values to a numeric vector named 'numVar'
+numVec <- c(1,2,4) # assign values to a numeric vector named 'numVar'
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -56,17 +58,17 @@ numVar <- c(1,2,4) # assign values to a numeric vector named 'numVar'
 # is.double(objectName) can be used to confirm that a vector is numeric
 # remember that double and numeric are synonomous
 
-is.double(numVar) # test whether 'numVar' is numeric
+is.double(numVec) # test whether 'numVar' is numeric
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # 1c. integer vectors
 
-is.integer(numVar) # test whether 'numVar' is integer
+is.integer(numVec) # test whether 'numVar' is integer
 
-intVar <- c(1L,2L,4L) # assign values to an integer vector named 'intVar'
+intVec <- c(1L,2L,4L) # assign values to an integer vector named 'intVar'
 
-is.integer(intVar) # test whether 'intVar' is integer
+is.integer(intVec) # test whether 'intVar' is integer
 
 # while R differentiates between integer and double/numeric vectors,
 # in practical terms they are often treated as the same
@@ -77,23 +79,23 @@ is.integer(intVar) # test whether 'intVar' is integer
 
 # logical vectors can be used to store binary data
 
-logVar <- c(TRUE, FALSE, T, F) # assign values to an logical vector 
+logVec <- c(TRUE, FALSE, T, F) # assign values to an logical vector 
 
-is.logical(logVar) # test whether 'logVar' is logical
+is.logical(logVec) # test whether 'logVar' is logical
 
-View(logVar) # generate data view for vector 'logVar'
+View(logVec) # generate data view for vector 'logVar'
 
 # you can also generate a frequency table of vectors using the 
 # table(objectName) function
 
-table(logVar) # generate frequency table for vector 'logVar'
+table(logVec) # generate frequency table for vector 'logVar'
 
 # finally, you can force the logical vector into numeric storage, which
 # illustrates the underlying numeric structure of logical vectors
 
-logVarAsNumeric <- as.numeric(logVar) # create numeric analogue of 'logVar'
+logVecAsNumeric <- as.numeric(logVec) # create numeric analogue of 'logVar'
 
-table(logVarAsNumeric) # generate frequency table for new vecto
+table(logVecAsNumeric) # generate frequency table for new vecto
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -101,10 +103,10 @@ table(logVarAsNumeric) # generate frequency table for new vecto
 
 # character vectors contain lists of words or other non-numeric data
 
-chrVar <- c("chris", "christy", "kelly") # create character vector
+chrVec <- c("chris", "christy", "kelly") # create character vector
 # named 'chrVar'
 
-is.character(chrVar) # test whether 'chrVar' is character data
+is.character(chrVec) # test whether 'chrVar' is character data
 
 # ==========================================================================
 
@@ -116,10 +118,10 @@ is.character(chrVar) # test whether 'chrVar' is character data
 
 # is.atomic(objectName) can be used to confirm that a vector is atomic
 
-is.atomic(numVar)
-is.atomic(intVar)
-is.atomic(logVar)
-is.atomic(chrVar)
+is.atomic(numVec)
+is.atomic(intVec)
+is.atomic(logVec)
+is.atomic(chrVec)
 
 # ==========================================================================
 
@@ -132,7 +134,7 @@ firstList <- list(c(1,2,4), c(TRUE, FALSE, T, F), c("chris", "christy", "kelly")
 
 # since the vectors have already been created, however, they can be 
 # used directly to assign objects to alist
-secondList <- list(numVar, logVar, chrVar)
+secondList <- list(numVec, logVec, chrVec)
 
 # ==========================================================================
 # ==========================================================================
