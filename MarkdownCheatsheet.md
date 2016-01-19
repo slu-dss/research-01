@@ -80,21 +80,21 @@ You can make an ordered list by numbering items (`1.`)
 
 ### Code Formatting
 
-You can include code written in a monospace font (think of Courier New) both inline by including a single backtick on either side of the code (` ` `).
+You can include code written in a monospace font (think of Courier New) both inline by including a single backtick on either side of the code (`\``).
 
 ```
 You use the combine function - `c()` - to assign elements to a vector in `R`.
 ```
 	
-You can also create blocks of specially formatted text for code by using triple backticks (` ``` `) on either end of the code block.
+You can also create blocks of specially formatted text for code by using triple backticks (`\`\`\``) on either end of the code block.
 
 ```
 This is a block of code in R:
 
-```
+\`\`\`
 x <- c(1,2,3)
 y <- c(TRUE, FALSE, T, F)
-```
+\`\`\`
 
 ```
 
