@@ -18,7 +18,7 @@ At the end of this lesson, participants should be able to:
 ### Lesson Resources
 * The [`SETUP.md`](/references/SETUP.md) file in the [`references/`](/references) directory contains a list of packages required for this lesson
 * The [`notebook/`](/notebook) directory contains...
-* The [lesson slides](https://slu-dss.github.io/lesson-template/) provide an overview of...
+* The [lesson slides](https://slu-dss.github.io/research-01/) provide an overview of...
 * The [`references/`](/references) directory also contains other notes on changes to the repository, key topics, terms, data sources, and software.
 
 ### Extra Resources
@@ -34,7 +34,7 @@ usethis::use_course("https://github.com/slu-dss/research-01/archive/master.zip")
 By using `usethis::use_course`, all of the lesson materials will be downloaded to your computer, automatically extracted, and saved to your desktop. You can then open the `.Rproj` file to get started.
 
 ## Contributor Code of Conduct
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## About the SLU DSS
 ### Reproducible Research in R
