@@ -84,5 +84,5 @@ Please note that this project is released with a [Contributor Code of
 Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to
 abide by its terms.
 
-[repoLink]: https://github.com/slu-dss/lesson-template
-[issuesLink]: https://github.com/slu-dss/lesson-template/issues
+[repoLink]: https://github.com/slu-dss/research-01
+[issuesLink]: https://github.com/slu-dss/research-01/issues
