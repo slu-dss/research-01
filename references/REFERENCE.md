@@ -1,5 +1,3 @@
-# lesson-template Reference
+# research-01 Reference
 
-* Continuous integration
-* Markdown
-* reveal.js
+* 

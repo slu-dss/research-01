@@ -1,21 +1,17 @@
-# lesson-template Index
+# research-01 Index
 
 ## Key Topics
 
-* Lesson maintenance
-* Lesson template
+*
 
 ## Key Tools
 
 ### Packages
 
-* `knitr`
-* `rmarkdown`
-* `usethis`
-* `xaringan`
+*
 
 ### Tools
 
-* Git and GitHub
+* GitHub
 * `R`
 * RStudio
