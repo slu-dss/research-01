@@ -46,6 +46,7 @@ Please note that this project is released with a [Contributor Code of Conduct](.
 
 ## About the SLU DSS
 ### Reproducible Research in R
+This seminar is our introductory series of lessons for using `R` and RStudio with an eye towards reproducibility. We focus on some basic features of `R` itself, organizing with `R` projects, loading data using the `haven` package, crafting `R` notebooks and using RMarkdown syntax, and using the `knitr` package. More details are available on [our website](https://slu-dss.github.io/news/dss06/).
 
 ### About the SLU Data Science Seminar
 The [SLU Data Science Seminar](https://slu-dss.githb.io) (DSS) is a collaborative, interdisciplinary group at Saint Louis University focused on building researchers’ data science skills using open source software. We currently host seminars focused on the programming language R. The SLU DSS is co-organized by [Christina Gacia, Ph.D.](mailto:christina.garcia@slu.edu), [Kelly Lovejoy, Ph.D.](mailto:kelly.lovejoy@slu.edu), and [Christopher Prener, Ph.D.](mailto:chris.prener@slu.edu}). You can keep up with us here on GitHub, on our [website](https://slu-dss.githb.io), and on [Twitter](https://twitter.com/SLUDSS).
