@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reproducible Research in R</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Christy Garcia and Chris Prener" />
+    <meta name="date" content="2018-09-05" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Reproducible Research in <code>R</code>
+## Lesson 1: Introduction to R and RStudio
+### Christy Garcia and Chris Prener
+### September 5, 2018
+
+---
+
+
+# What We're All About
+
+We're in our **sixth** semester of offering seminars on using `R` for data science. 
+
+We were founded in 2015 by Christy, Chris, and Kelly Lovejoy.
+
+We are a collaborative, interdisciplinary group at Saint Louis University focused on building community around open source software and open science.
+
+---
+
+# What We're All About
+
+We ❤️ `R`, RStudio, and the `tidyverse`!
+
+--
+
+From Wickham and Grollman (2016):
+
+&lt;img src="assets/workflow.png" width="689" /&gt;
+
+---
+
+# Upcoming Events
+
+### DSS 06: Reproducible Research in `R`
+
+* Session 02 - September 19th
+* Session 03 - October 3rd
+* Session 04 - October 17th
+
+--
+
+### Other DSS Events
+
+* Open Science Meetup - October 5th
+* Brownbag, Power Analyses in `R` (South Campus) - October 31st
+* Brownbag, Using Python for Automating Routine Tasks - November 28th
+
+--
+
+### RLadies
+
+* Reproducible Research in `R` - October 3rd
+* Plotting something great: Making graphs in `R` - November 14th
+
+---
+
+# GitHub
+
+We host all of our materials on GitHub. If you want to get back to the lesson materials later, head to [https://github.com/slu-dss](https://github.com/slu-dss) and look for the `reserch-01` repository (a special type of folder).
+
+&lt;img src="assets/github.png" width="1508" /&gt;
+
+---
+
+# Getting Started
+
+You need to have `R` installed and **RStudio** open.
+
+You also need to have executed the following two functions in the console:
+
+```r
+install.packages("usethis")
+
+usethis::use_course("https://bit.ly/2wISdxO")
+```
+
+RStudio should open a new window that says `research-01` in the upper right hand corner.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

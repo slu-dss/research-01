@@ -1,21 +1,53 @@
-# Spring 2016, Seminar 01
+# research-01 <img src="/img/logo.png" align="right" />
+[![](https://img.shields.io/badge/seminar-reproducible%20research%20in%20r-brightgreen.svg)](https://github.com/slu-dss/research-01/)
+[![](https://img.shields.io/badge/lesson%20status-under%20development-red.svg)](https://github.com/slu-dss/research-01/)
+[![](https://img.shields.io/github/release/slu-dss/research-01.svg?label=version)](https://github.com/slu-dss/research-01/releases)
+[![](https://img.shields.io/github/last-commit/slu-dss/research-01.svg)](https://github.com/slu-dss/research-01/commits/master)
+[![Travis-CI Build Status](https://travis-ci.org/slu-dss/research-01.svg?branch=master)](https://travis-ci.org/slu-dss/research-01)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-dss/research-01?branch=master&svg=true)](https://ci.appveyor.com/project/chris-prener/research-01)
 
-This repository contains files for the first Spring, 2016 data science seminar:
-- Data Science Seminar.md - Spring 2016 Seminar Description in Markdown format
-- Data Science Seminar.pdf - Spring 2016 Seminar Description in .pdf format
-- LICENSE.md - license file
-- MarkdownCheatsheet.md - quick guide for writing GitHub flavored Markdown
-- README.md - readme file
-- ScriptLayout.R - template for creating well-documented scripts for `R`
+## Lesson Overview
 
+### Objectives
+At the end of this lesson, participants should be able to:
 
-### Spring 2016 - Data Management and Manipulation in R
-This seminar will provide an introduction to basic data management and manipulation using the programming language `R`. Using `R` for data analysis is becoming increasingly common because it is free, open-source, exceptionally flexible, and highly extensible - all features that set it apart from commercial statistical software. We will cover a number of topics, including the basic syntax of `R` commands, importing data into `R`, creating and modifying numeric and string data, and reshaping datasets. All of the examples will use sample data that comes pre-loaded with distributions of `R`.
+1. Demonstate how basic objects, like data frames, are created and explored
+2. Explain how functions, arguments, and packages fit together in `R`'s ecosystem
+3. Demonstate how to get help from within `R`
+4. Describe what an `.Rproj` (R project) is in basic terms
 
+### Lesson Resources
+* The [`SETUP.md`](/references/SETUP.md) file in the [`references/`](/references) directory contains a list of packages required for this lesson
+* The [`notebook/`](/notebook) directory contains...
+* The [lesson slides](https://slu-dss.github.io/research-01/) provide an overview of...
+* The [`references/`](/references) directory also contains other notes on changes to the repository, key topics, terms, data sources, and software.
+
+### Extra Resources
+* [RStudio cheatsheet](https://www.rstudio.com/resources/cheatsheets/#ide)
+
+## Access Lesson
+You can download this lesson to your Desktop easily using `usethis`:
+
+```r
+usethis::use_course("https://github.com/slu-dss/research-01/archive/master.zip")
+```
+
+or 
+
+```r
+usethis::use_course("https://bit.ly/2wISdxO")
+```
+
+By using `usethis::use_course`, all of the lesson materials will be downloaded to your computer, automatically extracted, and saved to your desktop. You can then open the `.Rproj` file to get started.
+
+## Contributor Code of Conduct
+Please note that this project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+## About the SLU DSS
+### Reproducible Research in R
 
 ### About the SLU Data Science Seminar
-This is the initial semester of the SLU Data Science Seminar. We are focused on building data science skills for students in the social sciences and humanities using open-source software and tools.
+The [SLU Data Science Seminar](https://slu-dss.githb.io) (DSS) is a collaborative, interdisciplinary group at Saint Louis University focused on building researchers’ data science skills using open source software. We currently host seminars focused on the programming language R. The SLU DSS is co-organized by [Christina Gacia, Ph.D.](mailto:christina.garcia@slu.edu), [Kelly Lovejoy, Ph.D.](mailto:kelly.lovejoy@slu.edu), and [Christopher Prener, Ph.D.](mailto:chris.prener@slu.edu}). You can keep up with us here on GitHub, on our [website](https://slu-dss.githb.io), and on [Twitter](https://twitter.com/SLUDSS).
 
-
-### About Saint Louis University
-Saint Louis University is a Catholic, Jesuit institution that values academic excellence, life-changing research, compassionate health care, and a strong commitment to faith and service. Founded in 1818, the University fosters the intellectual and character development of more than 13,000 students on two campuses in St. Louis and Madrid, Spain. Building on a legacy of nearly 200 years, Saint Louis University continues to move forward with an unwavering commitment to a higher purpose, a greater good.
+### About Saint Louis University <img src="/img/sluLogo.png" align="right" />
+Founded in 1818, [Saint Louis University](http://www.slu.edu) is one of the nation’s oldest and most prestigious Catholic institutions. Rooted in Jesuit values and its pioneering history as the first university west of the Mississippi River, SLU offers nearly 13,000 students a rigorous, transformative education of the whole person. At the core of the University’s diverse community of scholars is SLU’s service-focused mission, which challenges and prepares students to make the world a better, more just place.
