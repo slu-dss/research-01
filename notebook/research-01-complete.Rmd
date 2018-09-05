@@ -79,7 +79,7 @@ prof
 Now you try - create an object named `student` and assign your name to it. After you create the object, print it:
 
 ```{r create-student}
-
+student <- "Jane"
 ```
 
 We'll do the same thing this time, except we'll load some data from the `datasets` package. The `datasets` package comes pre-installed with `R` and contains a variety of fun and/or useful data sets. We'll load some data describing eruption intervals from the [Old Faithful geyser](https://en.wikipedia.org/wiki/Old_Faithful):
@@ -107,7 +107,9 @@ You can also click on the geyser object in the `Enviornment` tab to open up the 
 Now, you try. There is also a data set called `beaver1` in the `datasets` package. Assign it to a new object called `beaverData` and use the `str()` function to explore its contents:
 
 ```{r}
+beaverData <- beaver1
 
+str(beaverData)
 ```
 
 ## Working with Functions
@@ -150,7 +152,7 @@ Parameters like `what` and `by` give a function specific pieces of information. 
 Now, your turn. Pick a new animal and give it its own message:
 
 ```{r create-animal}
-
+say(what = "hoooo... hoooo", by = "owl")
 ```
 
 ## Getting Help
@@ -176,7 +178,7 @@ If you don't find what you need, or a package/function does not have help files 
 Now, you try getting help for the `datasets` package:
 
 ```{r help-datasets}
-
+?datasets
 ```
 
 ## R Projects and Working Directories
