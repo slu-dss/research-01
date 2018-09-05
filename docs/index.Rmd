@@ -1,0 +1,63 @@
+---
+title: "Reproducible Research in `R`"
+subtitle: "Lesson 1: Introduction to R and RStudio"
+author: "Christy Garcia and Chris Prener"
+date: "September 5, 2018"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Quick Notes
+
+---
+
+# Upcoming Events
+
+### DSS 06: Reproducible Research in `R`
+
+* Session 02 - September 19th
+* Session 03 - October 3rd
+* Session 04 - October 17th
+
+--
+
+### Other DSS Events
+
+* Open Science Meetup - October 5th
+* Brownbag, Power Analyses in `R` (South Campus) - October 31st
+* Brownbag, Using Python for Automating Routine Tasks - November 28th
+
+--
+
+### RLadies
+
+* Reproducible Research in `R` - October 3rd
+* Plotting something great: Making graphs in `R` - November 14th
+
+---
+
+# Getting Started
+
+You need to have `R` installed and **RStudio** open.
+
+You also need to have executed the following two functions in the console:
+
+```r
+install.packages("usethis")
+
+usethis::use_course("https://bit.ly/2wISdxO")
+```
+
+RStudio should open a new window that says `research-01` in the upper right hand corner.
+
