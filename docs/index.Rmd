@@ -22,6 +22,12 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
+# GitHub
+
+We host all of our materials on GitHub. If you want to get back 
+
+---
+
 # Upcoming Events
 
 ### DSS 06: Reproducible Research in `R`

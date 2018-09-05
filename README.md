@@ -23,7 +23,7 @@ At the end of this lesson, participants should be able to:
 * The [`references/`](/references) directory also contains other notes on changes to the repository, key topics, terms, data sources, and software.
 
 ### Extra Resources
-
+* [RStudio cheatsheet](https://www.rstudio.com/resources/cheatsheets/#ide)
 
 ## Access Lesson
 You can download this lesson to your Desktop easily using `usethis`:
