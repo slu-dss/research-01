@@ -144,7 +144,7 @@ sort(names(animals))
 The second way we can extend functions is by specifying multiple arguments:
 
 ```{r say-meow}
-say(what = "meow", by = "stretchycat")
+say(what = "gobble gobble", by = "turkey")
 ```
 
 Parameters like `what` and `by` give a function specific pieces of information. Always name the parameters - it makes your function easier to debug and more explicit!

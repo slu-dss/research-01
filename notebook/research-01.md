@@ -230,23 +230,30 @@ The second way we can extend functions is by specifying multiple
 arguments:
 
 ``` r
-say(what = "meow", by = "stretchycat")
+say(what = "gobble gobble", by = "turkey")
 ```
 
     ## 
-    ##  -------------- 
-    ## meow 
-    ##  --------------
-    ##     \
-    ##       \
-    ##         \
-    ##                         ,/|         _.--‛‛^``-...___.._.,;
-    ##                       /, \‛.     _-‛          ,--,,,--‛‛‛
-    ##                      {  \    `_-‛‛       ‛    /}‛
-    ## Jill                    `;;‛             ;   ; ;
-    ##                   ._.--‛‛     ._,,, _..‛  .;.‛
-    ##                   (,_....----‛‛‛     (,..--‛‛
     ## 
+    ##  ------------- 
+    ## gobble gobble 
+    ##  -------------- 
+    ##               \   
+    ##                \  
+    ##                 \
+    ##                .--.
+    ##               /} p \             /}
+    ##              `~)-) /           /` }
+    ##               ( / /          /`}.' }
+    ##                / / .-'""-.  / ' }-'}
+    ##               / (.'       \/ '.'}_.}
+    ##              |            `}   .}._}
+    ##              |     .-=-';   } ' }_.}
+    ##              \    `.-=-;'  } '.}.-}
+    ##               '.   -=-'    ;,}._.}
+    ##                 `-,_  __.'` '-._}
+    ##               jgs   `|||
+    ##                    .=='=,
 
 Parameters like `what` and `by` give a function specific pieces of
 information. Always name the parameters - it makes your function easier
