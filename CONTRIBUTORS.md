@@ -1,1 +1,1 @@
-[Christopher Prener](https://chris-prener.github.io) contributed the original design of the lessons with feedback from SLU DSS co-organizers Christina Garcia and Kelly Lovejoy. Chris is the active maintainer of this lesson.
+[Christopher Prener](https://chris-prener.github.io) and Christina Garcia contributed the original design of the lessons with feedback from SLU DSS co-organizer Kelly Lovejoy. Chris is the active maintainer of this lesson.
