@@ -28,7 +28,9 @@ We `r emojifont::emoji('heart')` `R`, RStudio, and the `tidyverse`!
 
 --
 
-From Wickham and Grollman (2016):
+</br>
+
+Our seminars cover *most* of data science workflow from Wickham and Grollman (2016):
 
 ```{r add-workflow-image, echo=FALSE}
 knitr::include_graphics("assets/workflow.png")

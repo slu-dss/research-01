@@ -24,6 +24,7 @@ At the end of this lesson, participants should be able to:
 
 ### Extra Resources
 * [RStudio cheatsheet](https://www.rstudio.com/resources/cheatsheets/#ide)
+* [*R for Data Science*](http://r4ds.had.co.nz)
 
 ## Access Lesson
 You can download this lesson to your Desktop easily using `usethis`:
