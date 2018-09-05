@@ -18,6 +18,7 @@ matrix:
       os: osx
 
 script:
+  - Rscript -e "rmarkdown::render('docs/index.Rmd')"
   - Rscript -e "rmarkdown::render('notebook/research-01.Rmd')"
   - Rscript -e "rmarkdown::render('notebook/research-01-complete.Rmd')"
   

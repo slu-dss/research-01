@@ -16,8 +16,9 @@ Web: https://slu-dss.github.io
 URL: https://github.com/slu-dss/research-01
 BugReports: https://github.com/slu-dss/research-01/issues
 Imports:
-    datasets,
+    emojifont,
     cowsay,
     knitr,
     rmarkdown,
-    usethis
+    usethis,
+    xaringan
