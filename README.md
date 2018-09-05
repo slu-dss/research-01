@@ -11,9 +11,10 @@
 ### Objectives
 At the end of this lesson, participants should be able to:
 
-1.
-2.
-3.
+1. Demonstate how basic objects, like data frames, are created and explored
+2. Explain how functions, arguments, and packages fit together in `R`'s ecosystem
+3. Demonstate how to get help from within `R`
+4. Describe what an `.Rproj` (R project) is in basic terms
 
 ### Lesson Resources
 * The [`SETUP.md`](/references/SETUP.md) file in the [`references/`](/references) directory contains a list of packages required for this lesson
@@ -29,6 +30,12 @@ You can download this lesson to your Desktop easily using `usethis`:
 
 ```r
 usethis::use_course("https://github.com/slu-dss/research-01/archive/master.zip")
+```
+
+or 
+
+```r
+usethis::use_course("https://bit.ly/2wISdxO")
 ```
 
 By using `usethis::use_course`, all of the lesson materials will be downloaded to your computer, automatically extracted, and saved to your desktop. You can then open the `.Rproj` file to get started.
