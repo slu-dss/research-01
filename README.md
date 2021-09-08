@@ -26,7 +26,15 @@ At the end of this lesson, participants should be able to:
 * [*R for Data Science*](http://r4ds.had.co.nz)
 
 ## Access Lesson
-You can download this lesson to your Desktop easily using `usethis`:
+### Initial Package Installation
+We use the `install.packages` function to install modular components of the `R` ecosystem. For instance, to access lesson materials, we'll use the `usethis` package. To install it, we run the following function in our console:
+
+```r
+install.packages("usethis")
+```
+
+### Download Lesson Materials
+With the package installed, you you can download this lesson to your Desktop easily using `usethis`:
 
 ```r
 usethis::use_course("https://github.com/slu-dss/research-01/archive/master.zip")
@@ -38,7 +46,16 @@ or
 usethis::use_course("https://bit.ly/2wISdxO")
 ```
 
-By using `usethis::use_course`, all of the lesson materials will be downloaded to your computer, automatically extracted, and saved to your desktop. You can then open the `.Rproj` file to get started.
+By using `usethis::use_course`, all of the lesson materials will be downloaded to your computer, automatically extracted, and saved to your desktop. The `research-01-master` project should open automatically afterwards.
+
+### Install Other Packages for Today
+In addition to `usethis`, there are a couple of other packages we'll need:
+
+```r
+install.packages(c("cowsay", "knitr", "rmarkdown"))
+```
+
+Now we're ready to go!
 
 ## Contributor Code of Conduct
 Please note that this project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.

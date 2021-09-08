@@ -1,7 +1,7 @@
 Reproducible Research in R, Lesson 1
 ================
 Christy Garcia, Ph.D. and Christopher Prener, Ph.D.
-(September 04, 2018)
+(September 08, 2021)
 
 ## R and RStudio Basics
 
@@ -39,16 +39,16 @@ output will be saved alongside it (click the *Preview* button or press
 *Cmd+Shift+K* to preview the `html` file). The `html` file will always
 be saved in the directory that your R Markdown file is saved in.
 
-If you want to create a new R Notebook, you can do so by going to `File
-> New File > R Notebook`. We’ll talk more about notebooks and markdown
-in the third sessions this semester.
+If you want to create a new R Notebook, you can do so by going to
+`File > New File > R Notebook`. We’ll talk more about notebooks and
+markdown in the third sessions this semester.
 
 ## Packages
 
 Packages are the way that we can extend the base R software. They are
 typically written by R users and made available for free via a series of
 servers called CRAN. (We will eventually write our own package this
-semester\!)
+semester!)
 
 To install new packages, we use the `install.packages()` function where
 the package name is written inside the parentheses in double quotes -
@@ -113,7 +113,7 @@ prof <- "Christy"
 ```
 
 You should now see the `prof` object in the `Enviornment` tab in
-RStudio\! We can enter an object name by itself in the console to print
+RStudio! We can enter an object name by itself in the console to print
 its contents:
 
 ``` r
@@ -206,17 +206,15 @@ To extract just the names, we can use the `names()` function:
 names(animals)
 ```
 
-    ##  [1] "cow"          "chicken"      "clippy"       "poop"        
-    ##  [5] "bigcat"       "ant"          "pumpkin"      "ghost"       
-    ##  [9] "spider"       "rabbit"       "pig"          "snowman"     
-    ## [13] "frog"         "hypnotoad"    "shortcat"     "longcat"     
-    ## [17] "fish"         "signbunny"    "facecat"      "behindcat"   
-    ## [21] "stretchycat"  "anxiouscat"   "longtailcat"  "cat"         
-    ## [25] "trilobite"    "shark"        "buffalo"      "grumpycat"   
-    ## [29] "smallcat"     "yoda"         "mushroom"     "endlesshorse"
-    ## [33] "bat"          "bat2"         "turkey"       "monkey"      
-    ## [37] "daemon"       "egret"        "duckling"     "duck"        
-    ## [41] "owl"
+    ##  [1] "cow"          "chicken"      "chuck"        "clippy"       "poop"        
+    ##  [6] "bigcat"       "ant"          "pumpkin"      "ghost"        "spider"      
+    ## [11] "rabbit"       "pig"          "snowman"      "frog"         "hypnotoad"   
+    ## [16] "shortcat"     "longcat"      "fish"         "signbunny"    "facecat"     
+    ## [21] "behindcat"    "stretchycat"  "anxiouscat"   "longtailcat"  "cat"         
+    ## [26] "trilobite"    "shark"        "buffalo"      "grumpycat"    "smallcat"    
+    ## [31] "yoda"         "mushroom"     "endlesshorse" "bat"          "bat2"        
+    ## [36] "turkey"       "monkey"       "daemon"       "egret"        "duckling"    
+    ## [41] "duck"         "owl"          "squirrel"     "squirrel2"
 
 This is great, but it would be better if it were presented in
 alphabetical order, so we’ll *wrap* the `names(animals)` function call
@@ -226,21 +224,19 @@ in the `sort()` function:
 sort(names(animals))
 ```
 
-    ##  [1] "ant"          "anxiouscat"   "bat"          "bat2"        
-    ##  [5] "behindcat"    "bigcat"       "buffalo"      "cat"         
-    ##  [9] "chicken"      "clippy"       "cow"          "daemon"      
-    ## [13] "duck"         "duckling"     "egret"        "endlesshorse"
-    ## [17] "facecat"      "fish"         "frog"         "ghost"       
-    ## [21] "grumpycat"    "hypnotoad"    "longcat"      "longtailcat" 
-    ## [25] "monkey"       "mushroom"     "owl"          "pig"         
-    ## [29] "poop"         "pumpkin"      "rabbit"       "shark"       
-    ## [33] "shortcat"     "signbunny"    "smallcat"     "snowman"     
-    ## [37] "spider"       "stretchycat"  "trilobite"    "turkey"      
-    ## [41] "yoda"
+    ##  [1] "ant"          "anxiouscat"   "bat"          "bat2"         "behindcat"   
+    ##  [6] "bigcat"       "buffalo"      "cat"          "chicken"      "chuck"       
+    ## [11] "clippy"       "cow"          "daemon"       "duck"         "duckling"    
+    ## [16] "egret"        "endlesshorse" "facecat"      "fish"         "frog"        
+    ## [21] "ghost"        "grumpycat"    "hypnotoad"    "longcat"      "longtailcat" 
+    ## [26] "monkey"       "mushroom"     "owl"          "pig"          "poop"        
+    ## [31] "pumpkin"      "rabbit"       "shark"        "shortcat"     "signbunny"   
+    ## [36] "smallcat"     "snowman"      "spider"       "squirrel"     "squirrel2"   
+    ## [41] "stretchycat"  "trilobite"    "turkey"       "yoda"
 
 `R` functions are endlessly nestable, but you should do this with
 caution - the more times you nest within a function, the harder it
-becomes to read and de-bug\!
+becomes to read and de-bug!
 
 The second way we can extend functions is by specifying multiple
 arguments:
@@ -249,7 +245,6 @@ arguments:
 say(what = "gobble gobble", by = "turkey")
 ```
 
-    ## 
     ## 
     ##  ------------- 
     ## gobble gobble 
@@ -273,7 +268,7 @@ say(what = "gobble gobble", by = "turkey")
 
 Parameters like `what` and `by` give a function specific pieces of
 information. Always name the parameters - it makes your function easier
-to debug and more explicit\!
+to debug and more explicit!
 
 Now, your turn. Pick a new animal and give it its own message:
 
@@ -340,7 +335,7 @@ project. You can view the current working directory with `getwd()`:
 getwd()
 ```
 
-    ## [1] "/Users/chris/GitHub/DSS/research-01/notebook"
+    ## [1] "/Users/chris/GitHub/slu-dss/research-01/notebook"
 
 R projects create a home for your analyses. When you set a R project up,
 it will change the **working directory** to the project’s directory.
@@ -352,4 +347,4 @@ We’ll give you an R project directory to download for each seminar
 session. However, if you want to create a new project for your own work,
 go to `File > New Project...` and follow the prompts. You can create a
 new project directory, associate a project with an existing directory,
-and even add `git` version control if you know how to use it\!
+and even add `git` version control if you know how to use it!
